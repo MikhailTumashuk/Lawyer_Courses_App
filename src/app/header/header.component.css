@@ -1,0 +1,65 @@
+.navbar{
+    width: 1440px;
+    /* height: 76px; */
+    background-color: #000000;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 700;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container{
+   height: inherit;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+/* .navbar-menu button{
+    margin: 0 0 0 30px;
+} */
+
+.nav_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+.navbar-menu button{
+    background-color: transparent;
+    width: 108px;
+    height: 76px;
+    padding: 0;
+}
